@@ -6,17 +6,17 @@ import com.vasan.algorithmlearning.binarytree.utils.NodeUtil;
 /**
  * https://www.geeksforgeeks.org/print-nodes-k-distance-root-iterative/
  */
-public class PrintNodesAtDistance {
+public class NodesAtDistance {
 
   private final int levelToPrint;
   private Node data = NodeUtil.createData();
 
-  public PrintNodesAtDistance(int levelToPrint) {
+  public NodesAtDistance(int levelToPrint) {
     this.levelToPrint = levelToPrint;
   }
 
   public static void main(String[] args) {
-    PrintNodesAtDistance g = new PrintNodesAtDistance(4);
+    NodesAtDistance g = new NodesAtDistance(4);
     g.printAtDistance();
   }
 

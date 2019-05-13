@@ -6,12 +6,12 @@ import com.vasan.algorithmlearning.binarytree.utils.NodeUtil;
 /**
  * https://www.geeksforgeeks.org/print-leaf-nodes-left-right-binary-tree/
  */
-public class PrintLeftToRight {
+public class LeftToRight {
 
   private Node data = NodeUtil.createData();
 
   public static void main(String[] args) {
-    PrintLeftToRight g = new PrintLeftToRight();
+    LeftToRight g = new LeftToRight();
     g.printNodeLeftToRight();
   }
 
