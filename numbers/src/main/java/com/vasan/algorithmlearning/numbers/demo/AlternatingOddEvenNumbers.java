@@ -1,4 +1,4 @@
-package com.vasan.algorithmlearning.numbers;
+package com.vasan.algorithmlearning.numbers.demo;
 
 import java.util.Arrays;
 import java.util.List;
