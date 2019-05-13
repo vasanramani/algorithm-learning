@@ -12,7 +12,11 @@ public class PrintLeftToRight {
 
   public static void main(String[] args) {
     PrintLeftToRight g = new PrintLeftToRight();
-    g.printNodeLeftToRight(g.data);
+    g.printNodeLeftToRight();
+  }
+
+  private void printNodeLeftToRight() {
+    printNodeLeftToRight(data);
   }
 
   private void printNodeLeftToRight(Node data) {
