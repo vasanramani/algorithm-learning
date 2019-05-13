@@ -32,7 +32,6 @@ public class AlternatingOddEvenNumbers {
   }
 
   private void alternate(List<Integer> first, List<Integer> second) {
-
     int i = first.size() > second.size() ? first.size() : second.size();
     StringBuilder s = new StringBuilder();
     s.append("Output: [");
@@ -42,6 +41,5 @@ public class AlternatingOddEvenNumbers {
         s.append(second.get(j)).append(COMMA);
     }
     System.out.println(s.substring(0, s.length() - 2) + "]");
-
   }
 }
