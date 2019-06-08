@@ -1,4 +1,5 @@
 rootProject.name = 'algorithm-learning'
 include 'binary-tree'
 include 'numbers'
+include 'collections'
 
